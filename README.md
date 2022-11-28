@@ -3,7 +3,7 @@ HTML CSS Lab Solution
 
 
 ## Navigation Menu With Div 
-![image](https://user-images.githubusercontent.com/76401746/204196669-191c96d5-935e-4082-8c02-505ff3c2b143.png)
+![image](https://user-images.githubusercontent.com/76401746/204198889-01874380-1f9c-45f1-938f-fe481de4396f.png)
 ---
 
 ## Navigation Menu with UL-LI
