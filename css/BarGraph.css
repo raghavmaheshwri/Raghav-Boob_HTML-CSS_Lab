@@ -1,0 +1,77 @@
+.vericleBarGraph{
+    background: rgb(224, 224, 224);
+    padding: 20px;
+    position: absolute;
+    left: 38%;
+    top: 16%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 47px -26px grey;
+}
+
+  .Graph-bar {
+    width: 30px;
+    height: 350px;
+    background: lightgray;
+    position: relative;
+  }
+
+  .GraphBarSection{
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .bar1 {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    animation: barGraphAnimation1 2s forwards;
+    background-color: #c08833;
+  }
+
+  .bar2 {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    animation: barGraphAnimation2 2s forwards;
+    background-color: #c08833;
+  }
+
+  .bar3 {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    animation: barGraphAnimation3 2s forwards;
+    background-color: #c08833;
+  }
+
+  @keyframes barGraphAnimation1 {
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 30%;
+    }
+  }
+
+  @keyframes barGraphAnimation2 {
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 40%;
+    }
+  }
+
+  @keyframes barGraphAnimation3 {
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 80%;
+    }
+  }
+
+  .barplotheading{
+    text-align: center;
+  }

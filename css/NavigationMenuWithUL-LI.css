@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    background: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.header h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.main-menu{
+    background: gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.main-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-menu nav ul{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.main-menu nav  ul  li{
+    display: inline-block;
+    padding: 10px;
+    list-style: none;
+    position: relative;
+}
+
+.dropdown{
+    position: absolute;
+    left: 0px;
+    background: lightgray;
+    padding-left: 0px;
+    margin-top: 10px !important;
+    display: none;
+}
+
+.dropdown li{
+    display: block;
+}
+
+.showdropdown:hover .dropdown{
+    display: block;
+}
+
+.main-menu nav  ul  li ul li:hover{
+    background: aliceblue;
+    color: black;
+}
+
+.dropdown li a:hover{
+    color: black !important;
+}
